@@ -7,7 +7,13 @@ Vertical slice de un plataformas 2D para un jugador, construido con Phaser 3.90.
 - Node.js 20 o superior.
 - npm 10 o superior.
 
-## Ejecutar en local
+## Jugar sin Terminal
+
+Para jugar sin instalar nada ni abrir Terminal, haz doble clic en `index.html`. El juego carga Phaser desde Internet, así que necesitas conexión la primera vez que lo abras.
+
+Si macOS lo abre como texto o no carga el juego, haz clic derecho sobre `index.html`, selecciona **Abrir con** y elige Opera, Chrome o Safari.
+
+## Ejecutar en local para desarrollo
 
 Desde la raíz del proyecto:
 
@@ -16,7 +22,7 @@ npm install
 npm run dev
 ```
 
-Abre la URL que indique Vite, normalmente `http://localhost:5173`.
+Abre la URL que indique Vite, normalmente `http://localhost:5173`. Este modo es para desarrollar; no es necesario para jugar la versión autónoma.
 
 Controles del primer nivel:
 
